@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 .contenido {
-  height: 100vh;
+  min-height: 85vh;
   width: 100%;
   background-image: url(../img/globe-1849404_1280.png);
   background-size: cover;
@@ -81,7 +81,7 @@ nav a:hover {
 
 .contenidoPaginas {
   width: 100%;
-  height: 150vh;
+  min-height: 125vh;
   background-size: cover;
   background-position: right;
   background-color: black;
@@ -112,7 +112,10 @@ nav a:hover {
 }
 
 .klap,
-.tecnocom {
+.tecnocom,
+.portafolio,
+.ecommerceHola,
+.paginaChanchito {
   width: 190px;
   height: 190px;
   margin-top: 10px;
@@ -155,24 +158,17 @@ nav a:hover {
   padding-top: 20px;
 }
 
-.proyectos {
-  margin-left: 70px;
-  margin-right: 100px;
-  padding-right: 300px;
-}
-.proyectos h3 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.proyectos img {
-  width: 200px;
-  height: 200px;
-  margin-top: -400px;
-  margin-left: 900px;
-}
-
 .row h3 {
   margin-top: 10px;
+}
+
+.container-fluid h1 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.container-fluid h2 {
+  font-size: 25px;
+  color: coral;
 }
 
 footer {
