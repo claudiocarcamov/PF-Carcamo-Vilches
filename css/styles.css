@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  height: 70px;
+  font-size: 18px;
+  font-family: Tahoma;
+}
+
+.barra {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 6px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: gray;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  color: gray;
+  font-size: 21px;
+}
+
+.contenido {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/globe-1849404_1280.png);
+  background-size: cover;
+  background-position: right;
+  background-color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+.contenido h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(204, 198, 198);
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+.contenido h2 {
+  font-family: sans-serif;
+  color: rgb(155, 148, 148);
+  text-align: center;
+  font-size: 20px;
+  padding: 50px -10px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.contenido button {
+  margin-top: 30px;
+  background-color: rgb(160, 4, 4);
+  font-size: 20px;
+  padding: 10px;
+  color: silver;
+}
+
+.contenidoPaginas {
+  width: 100%;
+  height: 150vh;
+  background-size: cover;
+  background-position: right;
+  background-color: black;
+  font-family: sans-serif;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
+.cargo {
+  margin-left: 70px;
+  margin-right: 100px;
+  padding-right: 300px;
+}
+.cargo h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cargo ul {
+  list-style-type: "-";
+  padding: 20px;
+}
+
+.aramark {
+  width: 200px;
+  height: 200px;
+  margin-top: 35px;
+}
+
+.klap,
+.tecnocom {
+  width: 190px;
+  height: 190px;
+  margin-top: 10px;
+}
+
+.contenidoPaginas form {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-right: 300px;
+  padding-left: 300px;
+  width: 100%;
+}
+.contenidoPaginas label {
+  padding: 20px;
+}
+
+#enviar {
+  margin-top: 30px;
+  background-color: rgb(160, 4, 4);
+  font-size: 20px;
+  padding: 10px;
+  color: silver;
+}
+
+.titulos h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+.titulos img {
+  margin-left: 100px;
+  height: 170px;
+  width: 200px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.proyectos {
+  margin-left: 70px;
+  margin-right: 100px;
+  padding-right: 300px;
+}
+.proyectos h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.proyectos img {
+  width: 200px;
+  height: 200px;
+  margin-top: -400px;
+  margin-left: 900px;
+}
+
+.row h3 {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+}
+footer a {
+  color: rgb(155, 148, 148);
+}
+
+/*# sourceMappingURL=styles.css.map */

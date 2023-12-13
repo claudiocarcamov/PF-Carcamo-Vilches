@@ -1,0 +1,43 @@
+header {
+  background-color: $color_negro;
+  padding: 20px;
+  height: 70px;
+  font-size: 18px;
+  font-family: Tahoma;
+}
+
+.barra {
+  float: right;
+}
+
+nav {
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 6px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color_blanco;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}
+
+.navbar {
+    background-color: $color_negro;
+  }
+  
+  .nav-link {
+    color: $color_blanco;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    color: gray;
+    font-size: 21px;
+  }  
