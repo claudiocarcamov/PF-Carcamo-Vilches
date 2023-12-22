@@ -1,0 +1,148 @@
+@mixin fondo{
+  background-size: cover;
+  background-position: right;
+  background-color: $color_negro;
+}
+
+@mixin medidas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contenido {
+  min-height: 85vh;
+  width: 100%;
+  background-image: url(../img/globe-1849404_1280.png);
+  @include fondo();
+  font-family: $fuente_sans_serif;
+  text-align: $centro;
+
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(204, 198, 198);
+    text-align: $centro;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+  }
+
+  h2 {
+    font-family: $fuente_sans_serif;
+    color: rgb(155, 148, 148);
+    text-align: $centro;
+    font-size: 20px;
+    padding: 50px -10px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  button {
+    margin-top: 30px;
+    background-color: rgb(160, 4, 4);
+    font-size: 20px;
+    padding: 10px;
+    color: silver;
+  }
+}
+
+.contenidoPaginas {
+  width: 100%;
+  min-height: 125vh;
+  @include fondo();
+  font-family: $fuente_sans_serif;
+  justify-content: $centro;
+  color: $color_blanco;
+  font-size: 18px;
+}
+
+.cargo {
+  margin-left: 70px;
+  margin-right: 100px;
+  padding-right: 300px;
+
+  h3 {
+    @include medidas();
+  }
+
+  ul {
+    list-style-type: "-";
+    padding: 20px;
+  }
+}
+
+.aramark{
+  width: 200px;
+  height: 200px;
+  margin-top: 35px;
+}
+
+.proyectocii{
+  width: 400px;
+  height: 200px;
+  margin-top: 35px;
+}
+
+.klap,
+.tecnocom{
+  width: 190px;
+  height: 190px;
+  margin-top: 10px;
+}
+
+.contenidoPaginas {
+  form {
+    font-family: $fuente_sans_serif;
+    color: $color_blanco;
+    text-align: $centro;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 300px;
+    padding-left: 300px;
+    width: 100%;
+  }
+
+  label {
+    padding: 20px;
+  }
+}
+
+#enviar {
+  margin-top: 30px;
+  background-color: rgb(160, 4, 4);
+  font-size: 20px;
+  padding: 10px;
+  color: silver;
+}
+
+.titulos {
+  h3 {
+    text-align: $centro;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 40px;
+    font-family: $fuente_sans_serif;
+  }
+
+  img {
+    margin-left: 100px;
+    height: 170px;
+    width: 200px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+}
+
+.row h3 {
+  margin-top: 10px;
+}
+
+.container-fluid{
+    h1{
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    h2{
+        font-size: 25px;
+        color: coral;
+    }
+}
